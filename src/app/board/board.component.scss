@@ -1,0 +1,10 @@
+.board{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.tile{
+    width: 100px;
+    height: 100px;
+}

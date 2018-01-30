@@ -1,0 +1,4 @@
+<div [ngStyle]="{'width': width}" class="board">
+    <div (click)="selectTile(tile)" *ngFor="let tile of tiles"
+     [ngStyle]="{'background': tile.background, 'border': tile.border}" class="tile"></div>
+</div>
