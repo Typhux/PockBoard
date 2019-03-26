@@ -8,8 +8,8 @@ import { Component } from '@angular/core';
 
 export class AppComponent {
   public configuration: any = {
-    cols: 6,
-    rows: 6
+    cols: 23,
+    rows: 23
   };
 
   public data: any[] = [{
