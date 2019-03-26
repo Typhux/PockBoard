@@ -8,9 +8,9 @@ import { Component } from '@angular/core';
 
 export class AppComponent {
   public configuration: any = {
-    cols:3,
-    rows: 3
-  }
+    cols: 6,
+    rows: 6
+  };
 
   public data: any[] = [{
     item: {}
