@@ -3,9 +3,9 @@ export class Tile{
     readonly coordinate: Coordinate;
     background: string;
     private border: string;
-    readonly defaultBorder: string = 'black 1px solid';
-    readonly selectBorder: string = 'red 1px solid';
-    readonly enlightBorder: string = 'green 1px solid';
+    readonly defaultBorder: string = '#939393 3px solid';
+    readonly selectBorder: string = 'red 3px solid';
+    readonly enlightBorder: string = 'green 3px solid';
     get; selected: boolean;
     enlightened: boolean;
     item: any;
@@ -68,5 +68,5 @@ export class Coordinate{
     col: number;
     row: number;
 
-    
+
 }
